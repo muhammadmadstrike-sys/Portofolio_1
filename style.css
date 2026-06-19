@@ -17,12 +17,12 @@ header img {
 
 h1 {
   margin: 10px 0 5px;
-  color: #2020b0;
+  color: var(--teks-judul);
 }
 
 h2 {
   margin-top: 0;
-  color: #304a8c;
+  color: var(--teks-judul-h2);
   border-left: 5px solid #facc15;
   margin-bottom: 10px;
   padding-left: 10;
