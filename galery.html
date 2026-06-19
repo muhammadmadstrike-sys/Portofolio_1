@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <title> HSI Boarding School</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* CSS Tambahan khusus untuk memaksa gambar tugas berwujud kotak panjang menyamping */
+    .img-tugas {
+      width: 100% !important;
+      height: 100% !important;
+      border-radius: 12px !important; /* Membuat sudut kotak tumpul */
+      object-fit: cover !important;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -12,13 +21,14 @@
   </header>
   <hr>
   <nav>
-    <a href="index.html" >Beranda</a>
+    <a href="index.html">Beranda</a>
     <a href="biodata.html">Biodata</a>
     <a href="jadwal.html">Jadwal</a>
-    <a href="galery.html"class="active">Galery</a>
+    <a href="galery.html" class="active">Galery</a>
     <a href="feedback.html">Feedback</a>
   </nav>
   <hr>
+  
   <div class="container">
     <div class="card">
       <h3>Karya Desain</h3>
@@ -27,17 +37,49 @@
         <img src="images/Fitness.jpg" alt="Foto 2">
         <img src="images/creating-creative.jpg" alt="Foto 3">
         <img src="images/Gaming.jpg" alt="Foto 4">
-
       </div>
     </div>
 
     <div class="card">
-    <h3>Karya Video</h3>
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; margin-top: 15px;">
+      <h3>Karya Video</h3>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 8px; margin-top: 15px;">
         <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+      </div>
     </div>
-    <div class="footer">
-        <p>© 2026 Website Profil Santri - HSI Boarding School Purworejo</p>
+
+    <div class="card">
+      <h3>Dokumen Tugas / Karya Tulis</h3>
+      <p>Berikut adalah link yang menuju kepada karya tulis saya (klik pada gambar untuk membuka):</p>
+      
+      <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
+        
+        <a href="https://docs.google.com/document/d/1RT2Zv1QoPeVkmkgVLAXnDhRRI7KkyM9wDW079U-sL9g/edit?usp=sharing" target="_blank" style="flex: 1; min-width: 220px; text-decoration: none; color: inherit; text-align: center;">
+          <div style="overflow: hidden; border-radius: 12px; height: 110px; background-color: #eee;">
+            <img src="images/AQIDATUNA.jpg" alt="AQIDATUNA" class="img-tugas" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+          </div>
+          <p style="margin-top: 8px; font-weight: bold;">📄 AQIDATUNA</p>
+        </a>
+
+        <a href="https://docs.google.com/document/d/11jBLtwYAmLTfFEKIhYvQw16-_LzOAwebzDEmWUXqSvw/edit?usp=sharing" target="_blank" style="flex: 1; min-width: 220px; text-decoration: none; color: inherit; text-align: center;">
+          <div style="overflow: hidden; border-radius: 12px; height: 110px; background-color: #eee;">
+            <img src="images/FATHUL ALI'.jpg" alt="FATHUL ALI'" class="img-tugas" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+          </div>
+          <p style="margin-top: 8px; font-weight: bold;">📄 FATHUL ALI'</p>
+        </a>
+
+        <a href="https://docs.google.com/document/d/1SIUt6vyGphINV5yeZe9CKVdYP1NG4f13mFJ9Ks51l0Y/edit?usp=sharing" target="_blank" style="flex: 1; min-width: 220px; text-decoration: none; color: inherit; text-align: center;">
+          <div style="overflow: hidden; border-radius: 12px; height: 110px; background-color: #eee;">
+            <img src="images/NABIYYUNA.jpg" alt="NABIYYUNA" class="img-tugas" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+          </div>
+          <p style="margin-top: 8px; font-weight: bold;">📄 NABIYYUNA</p>
+        </a>
+
+      </div>
     </div>
+  </div> 
+  
+  <div class="footer">
+    <p>© 2026 Website Profil Santri - HSI Boarding School Purworejo</p>
+  </div>
 </body>
 </html>
