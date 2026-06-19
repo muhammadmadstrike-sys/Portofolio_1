@@ -1,9 +1,10 @@
+
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background: var(--bg-warna);
+  background: #f3f4f6;
   margin: 0;
   padding: 0;
-  color: var(--teks-utama);
+  color: #111827;
 }
 
 header {
@@ -17,12 +18,12 @@ header img {
 
 h1 {
   margin: 10px 0 5px;
-  color: var(--teks-judul);
+  color: #2020b0;
 }
 
 h2 {
   margin-top: 0;
-  color: var(--teks-judul-h2);
+  color: #304a8c;
   border-left: 5px solid #facc15;
   margin-bottom: 10px;
   padding-left: 10;
