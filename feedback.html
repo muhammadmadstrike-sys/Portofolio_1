@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title> HSI Boarding School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Formulir Umpan Balik</h1>
+    <p>Kritik,  dan Masukan</p>
+  </header>
+  <hr>
+  <nav>
+    <a href="index.html" >Beranda</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="jadwal.html">Jadwal</a>
+    <a href="galery.html">Galery</a>
+    <a href="feedback.html"class="active">Feedback</a>
+  </nav>
+  <hr>
+  <div class="container">
+    <div class="card">
+      <h3>FORMULIR</h3>
+      <form>
+        <label>Nama Anda (Opsional):</label>
+        <input type="text" placeholder="Tulis nama Anda">
+
+        <label>Email Anda:</label>
+        <input type="email" placeholder="nama@email.com" required>
+        
+        <label>Rekomendasi Website Ini?</label>
+        <input type="radio" name="rekom" value="ya"> Ya, Sangat bagus
+        <input type="radio" name="rekom" value="lumayan"> Lumayan
+        <input type="radio" name="rekom" value="tidak"> Tidak bagus
+
+        <label>Topik yang paling menarik:</label>
+        <input type="checkbox"> Biodata
+        <input type="checkbox"> Jadwal
+        <input type="checkbox"> Galeri
+
+        <label>Saran Pengembangan:</label>
+        <select>
+          <option>-- Pilih Bidang --</option>
+          <option>Desain</option>
+          <option>Konten</option>
+          <option>Fitur</option>
+          <option>Programmer</option>
+        </select>
+
+        <label>Pesan/Saran:</label>
+        <textarea rows="4" placeholder="Tulis pesan dan saran Anda di sini..."></textarea>
+
+        <button type="reset" class="reset">ulang</button>
+        <button type="submit" class="submit">Kirim</button>
+        <br>
+        <footer> &copy;copyright all right reserved 2025 </footer>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
